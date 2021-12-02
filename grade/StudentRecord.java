@@ -13,7 +13,7 @@ import java.util.Map;
 public class StudentRecord {
 
     private String studentId;
-    protected Map<Course, Grade> studentRecord; //! protected?
+    protected Map<Course, Grade> studentRecord;
 
     public StudentRecord(String studentId) {
         this.studentId = studentId;
@@ -29,11 +29,11 @@ public class StudentRecord {
     }
 
     public Grade getGrade(Course course){
-        return studentRecord.get(course); //! does this return null if course not achieved?
+        return studentRecord.get(course);
     }
 
     public void removeGrade(Course course){
-        studentRecord.put(course, null); //! does this null work?
+        studentRecord.put(course, null);
     }
 
     /**
@@ -50,7 +50,7 @@ public class StudentRecord {
             for(Course course: studentRecord.keySet()){
                 creditWeight += course.getCredits();
                 // totalPoints = sum of (credit * grade weight)
-                totalPoints += course.getCredits() * studentRecord.get(course).getWeight(); //! does getWeight work?
+                totalPoints += course.getCredits() * studentRecord.get(course).getWeight();
             }
             return (totalPoints/(float)creditWeight);
 
