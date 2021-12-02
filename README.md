@@ -1,8 +1,9 @@
 # About the project:
 
- 1. A model of a system that hold a university student records which includes how many courses the student attended, how much did they achieve in them, courses the student is currently enrolled into, etc.
- 2. Each student can calculate their Grade Point Average (GPA); how this is calculated is bellow.
- 3. Student can get A, B, C, D, F in any of the courses only.
+ 1. This was my lab exam for Java Programming course in Level 2 ESE.
+ 2. A model of a system that hold a university student records which includes how many courses the student attended, how much did they achieve in them, courses the student is currently enrolled into, etc.
+ 3. Each student can calculate their Grade Point Average (GPA); how this is calculated is bellow.
+ 4. Student can get A, B, C, D, F in any of the courses only.
 
 # How GPA is calculated:
 
