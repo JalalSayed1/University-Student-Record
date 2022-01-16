@@ -1,6 +1,6 @@
 # About the project:
 
- 1. This was my lab exam for Java Programming course in Level 2 ESE on 30/11/2021.
+ 1. This was my lab exam for Java Programming course in Level 2 - semester 2 ESE on 30/11/2021. I achieved in this project a grade of A1 ≈ (92% - 100%).
  2. A model of a system that hold a university student records which includes how many courses the student attended, how much did they achieve in them, courses the student is currently enrolled into, etc.
  3. Each student can calculate their Grade Point Average (GPA); how this is calculated is bellow.
  4. Student can get A, B, C, D, F in any of the courses only.
